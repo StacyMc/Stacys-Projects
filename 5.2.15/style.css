@@ -1,0 +1,128 @@
+div {
+	border:1px solid;
+}
+
+html, body {
+	padding:0;
+	margin:0;
+	background-color: #edefec;
+
+}
+.container {
+	
+}
+.header {
+height:500px;
+background-image: url("http://crispme.com/wp-content/uploads/32139.jpg");
+background-repeat: no-repeat;
+background-position: -50px -100px;
+background-size: 1500px;
+}
+.header h1 {
+	font-family: Verdana;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	margin-top: 50px;
+	text-align: center;
+}
+
+#logo {
+	width: 200px;
+	margin: 15px;
+}
+
+.navigation {
+	float: right;
+	margin-right: 40px;
+	color: #fff;
+	font-family: Verdana, Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	border: none;
+
+}
+.navigation li {
+	display: inline-block;
+	margin: 5px;
+	border: none;
+	color: #fff;
+}
+
+.navigation li a {
+	color: #fff;
+	font-family: Verdana, Times, serif;
+	font-size: 18px;
+	font-weight: bold;
+	text-decoration: none;
+}
+.navigation li button{
+	background-color: #FF3300;
+	padding: 5 px 10px;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+
+}
+
+.navigation li button:hover{
+	background-color: #FF9900
+}
+
+.form {
+	height: 100px;
+	background: rgba(0, 0, 0, 0.5);
+	text-align: center;
+	margin-top: -100px;
+	border: none;
+}
+
+.form form {
+	display: inline-block;
+	height: 50px;
+	width: 400px;
+	margin-top: 40px;
+
+}
+
+.form form input{
+	height: 35px;
+	width: 300 px;
+
+}
+
+.form form button {
+	height: 40px;
+	background: #E60000;
+	color: white;
+	font-size: 16px;
+	font-weight: bold;
+	border-radius: 4px;
+	border: none;
+	cursor: pointer;
+	vertical-align: middle;
+}
+.main-content {
+	height: 500px;
+	text-align: center;
+}
+.main-content img {
+	height:300px;
+	width: 200;
+	margin: 100px 10px
+}
+
+.footer {
+	height: 150px;
+	background: black;
+	text-align: center;
+
+}
+.footer img{
+	height: 50px;
+	margin: 50px 20px 0 20px;
+
+}
